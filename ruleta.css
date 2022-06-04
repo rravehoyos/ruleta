@@ -177,6 +177,15 @@
 			background-position: 0px;
 
 		}
+	.emer{
+			background: red;
+			height: 300px;
+			width: 80%;
+			position: absolute;
+			top: 30px;
+			opacity: 0;
+
+		}
 		
 	
 	
