@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ruleta</title>
+	<link rel="stylesheet" type="text/css" href="ruleta.css">
+</head>
+<body>
+
+	<div class=" rulemenu"> 
+		<div class="titu"> Titulo App</div>
+		<div class="rule" id="ruleta"></div>
+		<div class="dados" onclick="dados()">  </div>
+		<div class="juga" onclick="jugador()">  </div>
+		<div onclick="empezar()" class="rull">boton</div>
+		
+		<div class="emer">
+			<div class="resul" id="re">
+				<div class="cerrar" id="cerra"> </div>
+				<div class="respu" id="respuesta"> </div>
+			</div>
+		</div>
+	</div>
+	<script>
+		ban=0
+		banda=0
+		banju=0
+		function empezar() {
+			emergente.innerHTML="<div class='conte1'> hola </div>"
+			if(ban==0){
+				ruleta.style.animation=" ruleta 0.5s infinite"
+				x=0
+				y=parseInt(Math.random() * (6 - 1) + 1)
+				while(x!=20){
+					y=parseInt(Math.random() * (7 - 1) + 1)
+					console.log(y)
+					x++
+				}
+				ban=1
+				audio1.play()
+			}
+			else if(ban==1){
+				if(y==1){
+				
+				ruleta.style.animation=" ruletaA 2s"
+				ruleta.style.backgroundPosition="-263px -1487px"	
+				}
+				if(y==2){
+
+				ruleta.style.animation=" ruletaR 2s"
+				ruleta.style.backgroundPosition="-263px -1190px"	
+				}
+				if(y==3){
+				ruleta.style.animation=" ruletaT 2s"
+				ruleta.style.backgroundPosition="-263px -895px"	
+				}
+				if(y==4){
+				ruleta.style.animation=" ruletaK 2s"
+				ruleta.style.backgroundPosition="-263px -597px"	
+				}
+				if(y==5){
+				ruleta.style.animation=" ruletaN 2s"
+				ruleta.style.backgroundPosition="-263px -298px"	
+				}
+				if(y==6){
+				ruleta.style.animation=" ruletaP 2s"
+				ruleta.style.backgroundPosition="-263px -0px"	
+				}
+				ban=0
+				audio1.pause()
+				audio1.currentTime=0
+				audio2.play()
+			}
+			
+		}
+		function dados() {
+			if(banda==0){
+				dado=parseInt(Math.random() * (7 - 1) + 1)
+				console.log("dados " + dado)	
+			}
+		
+
+		}
+		function jugador() {
+			if(banju==0){
+				
+				player=parseInt(Math.random() * (5 - 1) + 1)
+				console.log("jugador "+ player)	
+			}
+			
+		}
+
+	</script>
+	<audio src="ruleta.mp3" loop id="audio1"></audio>
+	<audio src="fin.mp3"  id="audio2" ></audio>
+</body>
+</html>
