@@ -178,32 +178,5 @@
 
 		}
 		
-		.emer{
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			height: 100%;
-			width:100%;
-			background: red;
-			opacity:0;
-			
-		}
-		.resul{
-			position: absolute;
-			top: 50px;
-			left: 8%;
-			height: 500px;
-			width: 80%;
-			background: red;
-			border: solid black 8px;
-		}
-		.cerrar{
-			position: absolute;
-			top: -20px;
-			left: 89%;
-			height: 50px;
-			width: 50px;
-			background: red;
-			border: solid black 8px;
-		}
+	
 	
