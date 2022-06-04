@@ -1,4 +1,4 @@
- .rule{
+ 		.rule{
 			margin: auto;
 			height: 300px;
 			width:300px;
@@ -139,10 +139,11 @@
 		}
 		.titu{
 			color: black;
-			font-size: 80px;
+			font-size: 60px;
 			position: absolute;
 			top:3px;
-			left: 30px;
+			text-align: center;
+			
 
 		}
 			.dados{
