@@ -126,10 +126,9 @@
 			background: yellow;
 			width: 99%;
 			height: 100%;
-			padding-top: auto;
 			margin-left:auto;
 			margin-top: 1%;
-			box-sizing: border-box;
+			
 			border:solid 8px black;
 			padding-bottom: 50px;
 		}
