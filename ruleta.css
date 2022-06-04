@@ -103,45 +103,51 @@
 			}
 			
 		}
-		.rule2{
-			position: absolute;
-			left: 0px;
-			left: 300px;
-			height:680px;
-			width:200px;
-			background: url(ruleta1.png);
-			background-position: -9px -9px;
-			display: none;
+		 .rule{
+			margin: auto;
+			height: 300px;
+			width:300px;
+			margin-top: 100px;
+			background-size: cover;
+			background: url(lola.png);
+			background-position:-263px -1487px;
+			border: solid 10px black;
+			border-radius: 200px;
+
 		}
+
 		.rull{
-			width: 80%;n
+			width: 80%;
 			height: 200px;
 			background: red;
 			font-size: 80px;
 			text-align: center;
 			color: white;
-			margin: auto;
+			margin-top: 100px;
 			box-sizing: border-box;
 			padding-top: 45px;
 			border-radius: 20px;
+			margin-left: 10%;
 			border: solid 10px black;
 			margin-top: 2%;
 		}
 		.rulemenu{
 			background: royalblue;
 			width: 99%;
-			height: 700px;
-			padding-top: 30%;
-			margin-left: 0.5%;
+			height: 100%;
+			padding-top: auto;
+			margin-left:auto;
 			margin-top: 1%;
 			box-sizing: border-box;
 			border:solid 8px black;
+			padding-bottom: 10px;
 		}
 		.titu{
 			color: black;
 			font-size: 70px;
 			position: absolute;
 			top:20px;
+			left: -5%;
 			width: 100%;
 			text-align: center;
 
@@ -178,7 +184,7 @@
 			background-position: 0px;
 
 		}
-	.emer{
+		.emer{
 			background: red;
 			height: 300px;
 			width: 80%;
@@ -186,7 +192,5 @@
 			top: 30px;
 			opacity: 0;
 
+
 		}
-		
-	
-	
