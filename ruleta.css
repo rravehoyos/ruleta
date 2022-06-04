@@ -1,13 +1,4 @@
- 		.rule{
-			margin: auto;
-			height: 300px;
-			width:300px;
-			background-size: cover;
-			background: url(lola.png);
-			background-position:-263px -1487px;
-			border: solid 10px black;
-			border-radius: 200px;
-		}
+
 		@keyframes ruleta{
 			0%{
 				background-position:-263px -0px;
